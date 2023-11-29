@@ -1,0 +1,79 @@
+http://www.soemserver.com/articles/index.html
+
+https://in.bookmyshow.com/explore/home/pune
+
+https://www.icicibank.com/
+
+
+Backend technologies:
+- JEE - servlets, jsp, spring MVC, spring boot, ms
+- PHP
+- Python
+- .NET, C#
+- Node, Express
+
+
+
+HTML - HyperText Markup Language
+
+<tag>  body  </tag>
+
+<b>This is bold text</b>
+
+
+file:///D:/DAC-hbad-nov2023/first.html
+
+
+Tags:
+<html>
+<head>
+<body>
+<title>
+
+formatting tags:
+<b>, <u>, <i>  
+
+
+Layout tags:
+<h1>...<h6>
+<hr>  - horizontal ruler
+<br>  - line break  \n
+<p> - paragraph
+<ol> Ordered List   
+<li> List Item
+<ul> UnOrdered List
+<table>, <tr>, <th>, <td>
+<img src> 
+<img src="paintbrush.png" 
+             height="100" 
+             width="100"
+             align="left"
+             alt="This image could not be displayed">
+
+
+
+
+attributes:
+<tag attrib1=value1  attrib2=value3 .....></tag>
+
+
+Container tags in HTML4:
+- <div>  - division
+- <p>
+- <span>
+
+
+
+
+
+ <table border="1" width="60%" bgcolor="lightgray">
+            <tr><th colspan="3">Student Details</th></tr>
+            <tr bgcolor="orange"><th>Name</th><th>Course</th><th>Grade</th></tr>
+            <tr><td>Piyush Hedaoo</td><td>DAC</td><td>A</td></tr>
+            <tr><td>Onkar</td><td bgcolor="red">DITISS</td><td>B</td></tr>
+            <tr><td>Nidhi</td><td>IOT</td><td>C</td></tr>
+        </table>
+
+
+------
+
