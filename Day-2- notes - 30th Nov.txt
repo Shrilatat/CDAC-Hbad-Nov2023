@@ -1,0 +1,83 @@
+HTML4 form elements: 9+3 form elements
+
+9 : <input type=?>
+eg :  <input type="text">
+
+Text-based:
+- text
+- password
+- hidden
+
+
+Button-based
+- button  -- creates a very ordinary button
+- reset  -- clear teh contents of the form
+- submit  -- submit the form to teh server
+
+
+Misc-based:
+- radio
+- checkbox
+- file
+
+Remaining 3:
+- textarea
+- drop down list
+- <button type="submit">Click here</button>  
+
+<input type="submit" value="Click here" >
+
+
+
+file:///D:/DAC-hbad-nov2023/second.html?t1=Rahul&t2=Rahul123
+file:///D:/DAC-hbad-nov2023/second.html?t1=admin&t2=secret
+
+file:///D:/DAC-hbad-nov2023/second.html?uname=rahul&pass=secret
+
+
+
+HTTP methods: W3C group
+- GET
+- POST
+
+
+
+<form>
+
+</form>
+
+http://localhost:3000/
+http://localhost:3000/add?no1=10&no2=20
+
+
+HTML5 :
+<input type=?> name, value, maxlength, readonly
+
+attributes: 16 new form attibutes
+6:
+- required
+- autofocus
+- placeholder="msg"
+- min
+- max
+- pattern
+
+
+
+Form elements : 13 new form elements <input type=?>
+- email
+- number
+- range
+- date, + 5 month, time, week...
+- color
+- url
+- search
+- tel
+
+
+
+
+
+
+
+
