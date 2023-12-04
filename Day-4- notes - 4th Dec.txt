@@ -1,0 +1,137 @@
+Status codes: W3C std
+1XX - Informational
+2XX - sucess, 200 OK
+3XX - redirectional
+4XX - errors at client req  404 page not found
+5XX - errors at server side 500 internal error
+
+
+
+Part-1 : JS language basics -> Node Express
+Part-2 : DOM -> jQuery, React
+
+
+Client-side coding vs Server-side coding
+
+JavaScript
+VBScript
+JScript
+
+
+Javascript : ECMA group  (ECMA Script - ES)
+
+JS - ES5, ES6 features
+
+JS :
+- Client-side validation
+- Event handling
+- DOM manipulation
+
+
+Where to embed JS code?
+- <body>
+- <head>
+- External js file (abc.js)
+
+
+int i = 10;
+float f;
+char ch;
+boolean flag=true
+
+
+
+
+Variable types in JS :  undefined, string, number, boolean, null
+Loosely typed language
+
+var i = 10
+
+var sname = "Bela"
+
+var married = true
+
+Functions:
+- user-defined function
+- built-in functions
+
+----- function expressions  ------
+
+<html>
+    <head>
+        <script>
+
+            var i = 10;
+            var str = "Hello"
+            var c = i/10*8+1000
+
+            //function expression
+            var f1 = function(){}  
+            f1()
+
+
+            function greet(){  //named function
+                document.write("Hello World")
+            }
+            //greet()
+
+            var greet1 = function(){
+                document.write("Hello World from greet1")
+            }
+            //greet1()
+
+
+
+            function greetUser(username){
+                document.write("Hello " + username)
+            }
+
+            var greetUser1 = function(uname){
+                document.write("Hello " + uname)
+            }
+
+           // greetUser1("Shubham")
+
+            function add(a,b){
+                return a + b;
+            }
+
+            var add1 = function(a,b){
+                return a + b;
+            }
+
+            document.write("The sum is  " + add1(22,33))
+        </script>
+    </head>
+    <body>
+        <h1>Welcome to Javascript!!</h1>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
