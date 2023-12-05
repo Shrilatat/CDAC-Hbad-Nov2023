@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <h1>Welcome to Javascript!!</h1>
+        <script>
+            //Class  ES6
+            class Greeter{
+                greet(){
+                    console.log("Hello World")
+                }
+            }
+
+            var g1 = new Greeter()
+            g1.greet()
+
+            var g2 = new Greeter()
+            g2.greet()
+
+
+            //ES7
+            class Student{
+
+                constructor(sid, sname){
+                    this.sid = sid;
+                    this.sname = sname;
+                }
+
+                displayStudDetails(){
+                    console.log(this.sid, this.sname)
+                }
+            }
+
+            var s1 = new Student(1001, "Kartik")
+            var s2 = new Student(1002, "Neha")
+            var s3 = new Student(1003, "Ravi")
+
+            s1.displayStudDetails()
+            s2.displayStudDetails()
+            s3.displayStudDetails()
+
+        </script>
+    </body>
+</html>

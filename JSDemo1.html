@@ -1,0 +1,60 @@
+<html>
+    <body>
+        <h1>Welcome to Javascript!!</h1>
+        <script>
+            //Object initializer
+            //JSON : JavaScript Object Notation
+
+           /* var student = {
+                sname:"Tejas", 
+                age : 21
+            }
+            
+            console.log(student.sname, student.age)  //reading
+
+            student.sname = "Kartik"  //writing
+            student.age = 23
+            console.log(student.sname, student.age)
+
+
+            var person = {
+                pname : "Jitendra",
+                age : 22.5,
+                married : false,
+                hoobies : ["Reading", "Coding", "Playing Tabla"],
+                address : {city:"Pune", state:"Mah"}
+            }
+
+            console.log(person.age, person.pname, person.married)
+            console.log(person.hoobies[1])
+            console.log(person.address.state)
+            */
+
+
+
+            var book = {
+                bookid : 1001,
+                bname : "Core Java",
+                author : "Shrilata",
+                price : 400,
+                displayDetails : function(){
+                    console.log(this.bookid, this.bname, this.author, this.price)
+                },
+                incrPrice : function(amount){
+                    this.price += amount
+                }
+            }
+
+            book.displayDetails()
+            book.incrPrice(50)
+            book.displayDetails()
+
+
+           // console.log(book.bookid, book.bname, book.author, book.price)
+           // book.price = 500
+           // console.log(book.bookid, book.bname, book.author, book.price)
+
+
+        </script>
+    </body>
+</html>
