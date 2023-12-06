@@ -1,0 +1,132 @@
+User defined / custom Object:
+- Obj Initialser ---> JSON
+- class (ES6, ES7)
+
+var str = ""
+
+            var persons = [
+                {pid:101, pname:"Vishal", age:21},
+                {pid:102, pname:"Tejas", age:22},
+                {pid:103, pname:"Neha", age:20},
+                {pid:104, pname:"Ravi", age:21}
+            ]
+
+            str += "<table border='1'>"
+            for(person of persons){
+                str += "<tr><td>" + person.pid + "</td><td>" + person.pname + "</td><td>" + person.age + "</td></tr>"
+            }
+
+            str += "</table>"
+
+            document.write(str)
+
+
+--------------------------------
+
+class GradStudent extends Student{
+
+                constructor(sid, sname, gpa){
+                    super(sid, sname)
+                    this.gpa = gpa
+                }
+
+                displayGradStudDetials(){
+                    super.displayStudDetails()
+                    console.log(this.gpa)
+                }
+            }
+            var gs1 = new GradStudent(1,"aaa", 9.3)
+            var gs2 = new GradStudent(2,"bbb", 9.8)
+
+---------------------------------
+
+
+var s1 = "hello"
+s1.methods()
+var s2 = new String("Hello")
+
+Math.property
+Math.method()
+
+var d1 = new Date()
+
+var arr = new Array()
+var arr = []
+
+Number, Boolean
+
+var i = 10
+i.property
+i.methods()
+
+
+var num = 100
+var num = new Number(100)
+var num = Number(100)
+
+
+
+JS part-2:
+DOM
+
+
+HTML is always static in nuture, static content
+
+
+window.alert()
+window.prompt()
+
+alert()
+prompt()
+
+
+function f1(){
+  //code
+}
+f1()
+
+
+
+Higher order functions: one function invokes another
+
+- setTimeout(function-name, time-interval-ms)
+
+- setInterval(function-name, time-interval-ms)
+
+eg:
+setTimeout(f1, 1000)
+
+1000*60*60*24
+
+
+document.method()
+
+
+
+JS property!   - innerHTML  - readable , writable
+
+<tag>  </tag>
+
+<p>data</p>
+
+<h2> data </h2>
+
+<div> data </div>
+
+
+var r1 = new Rect(10,20)
+var r2 = new Rect(10,20)
+var r3 = new Rect(10,20)
+var r4 = new Rect(10,20)
+var r5 = new Rect(10,20)
+
+var arr = [r1, r2, r3, r4, r5]
+
+
+
+
+
+
+
+
+
