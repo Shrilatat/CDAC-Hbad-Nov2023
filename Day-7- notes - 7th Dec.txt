@@ -1,0 +1,126 @@
+function f1(){
+               var plist =  document.getElementsByTagName("p")
+
+               for(para of plist){
+                  para.innerHTML = "New content"
+               }
+
+onclick()
+onmouseover()
+onmouseout()
+onsubmit()
+
+
+- DOM manipulation
+- Event handling
+- Client side validation
+
+Client side Validation:
+- Form-level validation
+- field-level validation
+
+
+
+mobile no : 10 digit number
+<input type="number" id="mobile">
+
+if(mobile.length != 10)
+
+
+zip code : 7 digits <input type="number" >
+
+ssn - xxx-xx-xxxx   55-678-9978
+
+
+var ssn = docu....
+if(ssn.charAt(2) == "-")
+
+
+pan : AAAAAA99A
+
+Item Id : ABC123 
+
+
+
+var s1 = "Hello"
+var s1 = new String("Hello")
+
+var arr = []
+var arr = new Array()
+
+var re1 = //
+var re1 = new RegExp()
+
+class:  [only 1 char]
+H[AOU]T  --> HAT, HOT, HUT, 
+
+XXX HIT, HNT, HGT
+
+
+H[^AOU]T  --> XXXX HAT, HOT, HUT, 
+
+OK --> HIT, HNT, HGT
+
+
+
+
+
+[A-Za-z]lone   -->  _lone
+
+
+zip code : /\d\d\d\d\d\d\d/
+
+/\d{7}/
+
+
+
+mobile no : /\d\d\d\d\d\d\d\d\d\d/
+
+/\d{10}/
+
+Itme code 3 alpha 3 digits  : /[A-Z]{3}[0-9]{3}/
+
+Item code : Tt  /^[Tt]/
+
+/^/
+
+
+y
+
+/[y]$/
+
+
+salary : /\d{5,6}/
+
+
+
+Variable scopes:
+
+- local
+- global
+- block  ES6 let keyword
+
+
+
+AJAX - Async JavaScript And XML
+
+
+- HTML, HTML5
+- CSS
+- Javascript
+- DOM
+- XML
+- XmlHttpRequest (XHR)
+
+
+SPA - Single Page Application
+
+
+
+
+
+
+
+
+
+

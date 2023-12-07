@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+           span{color:red} 
+        </style>
+        
+        <script>
+           function validateName(){
+              var name = document.getElementById("uname").value 
+              if(name == "" || name == null ||  name.length == 0){
+                document.getElementById("s1").innerHTML = "Username is mandatory!!"
+                return false;
+              }
+              else if(name.length < 5){
+                document.getElementById("s1").innerHTML = ("Username should be min 5 chars!!")
+                return false;
+              }
+              return true;
+           }
+
+           function validatePass(){
+              var pass = document.getElementById("pass").value 
+              if(pass == "" || pass == null ||  pass.length == 0){
+                document.getElementById("s2").innerHTML =("Password is mandatory!!")
+                return false;
+              }
+              else if(pass.length < 5 || pass.length > 10){
+                document.getElementById("s2").innerHTML =("Password not in range!!")
+                return false;
+              }
+              return true;
+           }
+
+           function validate(){
+            if(validateName() && validatePass())
+                return true;
+            else return false;
+           }
+        </script>
+    </head>
+    <body>
+       <form onsubmit="return validate()">
+          username * : <input type="text" id="uname"> <span id="s1"></span><br>
+          Password * : <input type="password" id="pass"><span id="s2"></span> <br>
+         
+          <input type="submit">
+       </form>
+      
+    </body>
+</html>

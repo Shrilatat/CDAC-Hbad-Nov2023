@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script>
+            function validateName(){
+                var str = document.getElementById("uname").value
+                if(str.length < 5){
+                    document.getElementById("s1").innerHTML = ("Username must be min 5 chars")
+                    document.getElementById("uname").focus()
+                }
+            }
+
+            function validatePassword(){
+                var str = document.getElementById("pass").value
+                if(str.length < 8){
+                    document.getElementById("s2").innerHTML = ("password must be min 8 chars")
+                   
+                }
+            }
+        </script>
+    </head>
+    <body>
+       <form >
+         Name : <input type="text" id="uname" onchange="validateName()"> 
+                <span id="s1" style="color:red"></span>
+                <br>
+         Password : <input type="password" id="pass" onchange="validatePassword()"> 
+                    <span id="s2" style="color:red"></span>
+                    <br>
+         <input type="button" value="login">
+       </form> 
+    </body>
+</html>
