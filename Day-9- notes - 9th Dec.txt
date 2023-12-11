@@ -1,0 +1,94 @@
+ <div>
+        <p>First Paragraph</p>
+        <p>Second Paragraph</p>
+        <p>Third Paragraph</p>
+        <p>Fourth Paragraph</p>
+       </div>
+
+
+
+$(selector).event()
+
+$(selector).event(function)
+
+
+$("h2").mouseover()
+$("h2").mouseout()
+$("h2").mouseup()
+$("h2").click()
+
+
+$("h2").on("click mouseover mouseout", function(){})
+
+
+
+
+
+
+
+
+$(selector).on(e1, function(){})
+
+
+on()  --> bind multiple events to single selctor
+
+off()   --> remove the binding!
+
+
+
+
+
+
+
+
+
+
+$("video").click(function(){
+    $(this).attr({"height":"100px", "width...})
+
+})
+
+
+
+Form elements:
+
+$("input")  --> selects only <input> type of elemnets
+$(":input")  --> selects all types of form elements
+
+
+$("input[type='text']")   === $(":text")
+
+
+$(":radio")   --> selects all radio buttons
+$(":checkbox")
+
+$("input[type='email']") 
+
+
+
+0 - <input type="text">
+1 - <input type="text">
+2 - <select>...</select>
+
+
+$(":input[2]")
+
+
+jquery basic filter - $("p:eq(1)").css("background-color","yellow") 
+
+jquery traversal method - $("p").eq(1).css("background-color","yellow") 
+
+
+
+<script src="jquery.min.js">
+
+$(selector).css()  //core jquery
+
+
+$(selector).plugin()
+
+
+
+
+
+

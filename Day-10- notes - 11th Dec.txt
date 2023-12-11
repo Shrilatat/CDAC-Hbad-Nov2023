@@ -1,0 +1,112 @@
+c:> java fun
+
+Web server:
+
+.Net - IIS server
+PHP  - Apache HTTPD
+Java - Apache Tomcat, Oracle Glassfsh, JBoss, Websphere, weblogic.....
+Node - 5 lines JS code 
+
+
+
+geolocation.getCurrentPosition(showPosition)
+
+xhr.send()
+xhr.onreadystatechange = function(){}
+
+$("button").click(function(){})
+
+
+
+
+
+REPL - Read Evaluate Print Loop
+
+
+Java - lib/packages  -- java.util
+pure Java code
+import .....
+
+C : 
+#include<math.h>
+
+
+Node - module 
+- file (.js file)
+- package (multiple js files)
+
+pure JS code!
+
+require()
+
+
+HTML:
+<HTML>
+  <HEAD>
+    <script src="mymod.js">
+
+
+Modules:
+- Core/built-in modules - http, timer, fs
+- local (user-defined) modules
+- Third party modules
+
+
+Core module - http
+
+
+
+class Emp{...}
+
+class TestEmp
+
+
+
+
+local (user-defined) modules:
+- variables
+- functions
+- json objs
+- class
+
+
+
+
+Third party modules:
+1) download the package from npmjs.com
+2) install the package
+3) require()
+
+
+NPM - Node Package Manager
+
+
+
+var fs = require('fs')
+
+fs.readFile()  ---> async
+fs.readFileSync()   ---> sync
+
+
+fs.writeFile() ---> async
+fs.writeFileSync()   ---> sync
+
+
+fs.renameFile()
+fs.renameFileSync()
+
+
+fs.open()
+fs.openSync()
+
+
+
+
+
+
+
+
+
+
+
+
