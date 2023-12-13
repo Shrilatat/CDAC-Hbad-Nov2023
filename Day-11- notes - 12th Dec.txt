@@ -1,0 +1,191 @@
+Web Application -> app available over the web
+
+human centric
+response ? HTML
+browser - server
+
+
+Web Service  -> service available over the web eg CCValidator
+
+application centric
+response? JSON, XML
+server - server
+
+writeFileSync()
+readFileSync()
+readFile()
+writeFile()
+appendFile()
+unlinkFile()
+rename()
+
+
+
+fs :
+fs.readFile("t1.txt", function(err, data){.....})
+
+readFile()
+
+writeFile()
+
+- fs.open("t1.txt","r")
+- fs.read(args...)
+- fs.close()
+
+- fs.write(args....)
+
+
+
+
+Java ->
+
+ES 6 JS fat arrow/arrow function
+JS   =>
+
+1) Zero args : () => stmt-1
+2) 1 single arg : arg1 => stmt-1
+3) multiple args : (a1, a2, a3) => stmt-1
+4) zero, one, multiple : () => {......}
+
+
+
+xhr.onreadystatechange = () => {}
+
+setInterval(function(){}, 3000)
+setInterval(() => {} , 3000)
+
+
+geolocation.getCurrentPosition(position => {})
+
+$("button").click(() => {})
+
+
+var server = http.createServer((req, resp) => {})
+
+fs.readFile("t1.txt", function(err, data){})
+fs.readFile("t1.txt", (err, data) => {})
+
+
+setImmediate(function(arg){}, arg)
+setInterval(function(){}, ms)
+
+
+-------------------------
+
+//1) var promise = new Promise()
+//2) var promise = new Promise(function(){})
+
+/*3) var promise = new Promise(function(resolve, reject){
+    //executor code, pending state
+})*/
+
+/*var promise = new Promise((resolve, reject) => {
+    //executor code, pending state
+})*/
+
+
+//created teh promise 
+var promise = new Promise(function(resolve, reject){
+    let a = 5, b = 10;
+    if(a > b) 
+       resolve("all good!")
+    else 
+       reject(new Error("A cannot be greater than b"))
+})
+
+//Consume the promise 
+//1) promise.then()
+
+promise.then(f1, f2)
+
+promise.then(f1).catch(f2)
+
+promise.then(
+    function(result){
+        console.log(result)
+     },
+    function(err){
+        console.log(err)
+    }
+)
+
+
+
+
+promise.then(
+    function(result){
+        console.log(result)
+     })
+     .catch(
+
+
+    function(err){
+        console.log(err)
+    })
+
+/*
+promise.then(
+    result => console.log(result),  
+    err => console.log(err)   //on reject
+)*/
+
+
+
+
+--------------------------------
+
+
+Browser : http://localhost:3000/
+
+
+Routing :
+
+http://localhost:3000/  --> action1
+http://localhost:3000/user  --> user homepage
+http://localhost:3000/admin --> admin homepage
+
+
+http://localhost:3000/user
+
+
+
+http://localhost:3000/
+
+
+
+app.get()
+app.post()
+
+res.send("string")  --> text/html
+
+res.send(200, "string") 
+
+
+
+http://localhost:3000/login.html?uname=Shrilata&pass=secret
+
+At server side:
+
+req.query.uname  -> Shrilata
+req.query.pass  -> secret
+
+http://localhost:3000/processReq?uname=Tejas&pass=teg123
+
+
+At server side:
+
+req.body.uname
+req.body.pass
+
+
+
+
+app.get(url, f1, f2, f3, f4)
+
+app.get(url, f1)
+
+
+
+
+
+
