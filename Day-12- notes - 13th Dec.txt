@@ -1,0 +1,68 @@
+var arr = [100,144, 25, 81]
+
+//var newarr = arr.filter(function(){});  //filters 
+//var newarr = arr.map(function(){})
+//arr.forEach(function(){})
+
+
+var newarr = arr.filter(no => no%2==0)
+console.log(newarr)
+
+
+
+var sqarr = arr.map(no => Math.sqrt(no))
+console.log(sqarr)
+
+
+arr.forEach(no => console.log(no))
+
+-------------------------------
+
+
+<Person>
+<ExpenseItem>
+
+
+<FlightDetails>  -- HTML, data
+<FlightDetails>
+<FlightDetails>
+<FlightDetails>
+
+
+
+React components:
+- functional components
+- class-based components
+
+
+let parent = () => {
+    return (
+       <div> <child /> </div>
+     )
+}
+
+let child = () => {}
+
+
+
+
+
+
+
+
+let App = () => {
+    return (
+       <div> <Person /> </div>
+     )
+}
+
+let Person = () => {}
+
+
+<img src="a.gif" height=100>
+
+
+
+
+
+
