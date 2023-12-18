@@ -1,0 +1,49 @@
+1) props, state
+2) prop drilling, lifting state up, form handling, Lists and keys
+3) Context API
+
+4) Boundary
+5) Refs
+
+
+State management?
+- lifting state up + prop drilling
+- Context API
+- Redux
+
+
+React : onClick={btnHandler}
+
+JS : onclick="btnHandler()"
+
+
+Class-based
+function components
+
+React 16.8 +
+
+
+function components: React Hooks  -> functions
+ useState()
+
+
+Craeted form
+form data entered into state
+on submit, state, created a json obj!
+
+
+
+var arr = [{},{}]
+
+   {arr.map(ele => <>jsx<>)}
+
+
+
+Hierarchy!!
+- Inheritance (is-a) / class hierarchy
+- Composition (has-a ) / obj 
+
+
+
+
+
